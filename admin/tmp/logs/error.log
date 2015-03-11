@@ -1,0 +1,1547 @@
+2014-04-21 05:14:36 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\News\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\News\\index.ctp',
+)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-21 05:14:40 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\News\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\News\\index.ctp',
+)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-21 05:14:41 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\News\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\News\\index.ctp',
+)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-21 05:30:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findAll' at line 1
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('findAll', Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('findAll', Array, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('findAll', Array, Array)
+#4 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('findAll', Array, Object(AppModel))
+#5 E:\wwwroot\cakephp\app\Controller\NewsController.php(7): Model->__call('findAll', Array)
+#6 E:\wwwroot\cakephp\app\Controller\NewsController.php(7): AppModel->findAll()
+#7 [internal function]: NewsController->index()
+#8 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-21 05:30:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'findAll' at line 1
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('findAll', Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('findAll', Array, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('findAll', Array, Array)
+#4 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(800): DboSource->query('findAll', Array, Object(AppModel))
+#5 E:\wwwroot\cakephp\app\Controller\NewsController.php(7): Model->__call('findAll', Array)
+#6 E:\wwwroot\cakephp\app\Controller\NewsController.php(7): AppModel->findAll()
+#7 [internal function]: NewsController->index()
+#8 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(NewsController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-04-21 05:33:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 7]
+2014-04-21 05:33:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 7, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 7, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 7]
+2014-04-21 05:33:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 7, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 7, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:30 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 35]
+2014-04-21 05:33:30 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:31 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 35]
+2014-04-21 05:33:31 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:40 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 35]
+2014-04-21 05:33:40 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:41 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 35]
+2014-04-21 05:33:41 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 35, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:54 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:33:54 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:33:55 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:33:55 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:34:39 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 12]
+2014-04-21 05:34:39 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:34:40 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 12]
+2014-04-21 05:34:40 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:34:40 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 12]
+2014-04-21 05:34:40 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 12, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:38 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:38 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:39 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:39 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:40 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:40 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:41 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:41 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:41 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:41 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:42 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:42 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:35:43 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:35:43 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:16 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:16 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:17 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:17 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:17 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:17 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:17 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:17 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:18 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:18 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:18 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:18 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:36:19 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:36:19 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 8]
+2014-04-21 05:38:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 8]
+2014-04-21 05:38:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 8]
+2014-04-21 05:38:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:21 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\News.php, line 10]
+2014-04-21 05:38:21 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:22 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\News.php, line 10]
+2014-04-21 05:38:22 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:23 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\News.php, line 10]
+2014-04-21 05:38:23 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:23 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\News.php, line 10]
+2014-04-21 05:38:23 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:38:24 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\News.php, line 10]
+2014-04-21 05:38:24 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:06 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:07 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:07 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:07 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:08 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:08 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:08 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:08 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:23 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:23 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:23 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:23 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:33 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 8]
+2014-04-21 05:40:33 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 8, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:47 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:47 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:40:48 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:40:48 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:05 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:41:05 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:06 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:41:06 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:07 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 10]
+2014-04-21 05:41:07 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 10, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:40 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:40 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:41 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:41 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 05:41:42 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 05:41:42 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:00:29 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 14]
+2014-04-21 06:00:29 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:00:31 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 14]
+2014-04-21 06:00:31 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:00:31 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 14]
+2014-04-21 06:00:31 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:00:40 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 14]
+2014-04-21 06:00:40 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:00:41 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 14]
+2014-04-21 06:00:41 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:51 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:51 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:52 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:52 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:53 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:53 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:53 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:53 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:54 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:54 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:54 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:54 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:55 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:55 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:55 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:55 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:55 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:55 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:55 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:55 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:55 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:55 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:01:59 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:01:59 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:02:00 Error: Fatal Error (64): Cannot redeclare class NewsModel in [E:\wwwroot\cakephp\app\Model\New.php, line 13]
+2014-04-21 06:02:00 Error: [FatalErrorException] Cannot redeclare class NewsModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 13, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:12 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:12 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:13 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:13 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:14 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:14 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:15 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:15 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:28 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:28 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:03:28 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:03:28 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:34 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:34 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:41 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:41 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:42 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:42 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:43 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:43 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:43 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:43 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:44 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:44 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:04:45 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:04:45 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:05:31 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:05:31 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:05:32 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:05:32 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:05:33 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 14]
+2014-04-21 06:05:33 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 14, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:07:29 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 5]
+2014-04-21 06:07:29 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:07:32 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 5]
+2014-04-21 06:07:32 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:07:33 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\Newss.php, line 5]
+2014-04-21 06:07:33 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:08 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:08 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:09 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:09 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:10 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:10 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:50 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:50 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:51 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:51 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:08:52 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:08:52 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:09:12 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:09:12 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:09:13 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:09:13 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:09:34 Error: Fatal Error (64): Cannot redeclare class ContentModel in [E:\wwwroot\cakephp\app\Model\Content.php, line 5]
+2014-04-21 06:09:34 Error: [FatalErrorException] Cannot redeclare class ContentModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 5, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:12:26 Error: Fatal Error (64): Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21) in [E:\wwwroot\cakephp\app\Model\New.php, line 22]
+2014-04-21 06:12:26 Error: [FatalErrorException] Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:12:27 Error: Fatal Error (64): Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21) in [E:\wwwroot\cakephp\app\Model\New.php, line 22]
+2014-04-21 06:12:27 Error: [FatalErrorException] Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:12:28 Error: Fatal Error (64): Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21) in [E:\wwwroot\cakephp\app\Model\New.php, line 22]
+2014-04-21 06:12:28 Error: [FatalErrorException] Cannot redeclare getData() (previously declared in E:\wwwroot\cakephp\app\Model\New.php:21)
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 22, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:13:55 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\New.php, line 16]
+2014-04-21 06:13:55 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:13:56 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\New.php, line 16]
+2014-04-21 06:13:56 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:13:57 Error: Fatal Error (64): Cannot redeclare class NewssModel in [E:\wwwroot\cakephp\app\Model\New.php, line 16]
+2014-04-21 06:13:57 Error: [FatalErrorException] Cannot redeclare class NewssModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:14:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 11]
+2014-04-21 06:14:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:14:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 11]
+2014-04-21 06:14:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:14:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [E:\wwwroot\cakephp\app\Controller\NewsController.php, line 11]
+2014-04-21 06:14:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\wwwroot\cake...', 11, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:14:19 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 16]
+2014-04-21 06:14:19 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 16, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:15:29 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 20]
+2014-04-21 06:15:29 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-21 06:15:30 Error: Fatal Error (64): Cannot redeclare class NewModel in [E:\wwwroot\cakephp\app\Model\New.php, line 20]
+2014-04-21 06:15:30 Error: [FatalErrorException] Cannot redeclare class NewModel
+Request URL: /cakephp/news/index
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\wwwroot\cake...', 20, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 08:31:49 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /cakephp/categories
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(3499): Model->setSource('categories')
+#1 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1447): Model->schema()
+#3 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1434): Model->hasField('title', false)
+#4 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(880): Model->hasField(Array)
+#5 E:\wwwroot\cakephp\lib\Cake\Controller\Scaffold.php(131): Model->__get('displayField')
+#6 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(CategoriesController), Object(CakeRequest))
+#7 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-27 08:31:53 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /cakephp/categories
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(3499): Model->setSource('categories')
+#1 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1447): Model->schema()
+#3 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(1434): Model->hasField('title', false)
+#4 E:\wwwroot\cakephp\lib\Cake\Model\Model.php(880): Model->hasField(Array)
+#5 E:\wwwroot\cakephp\lib\Cake\Controller\Scaffold.php(131): Model->__get('displayField')
+#6 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(CategoriesController), Object(CakeRequest))
+#7 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-27 08:59:35 Error: [MissingActionException] Action AppController::categories() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'categories',
+)
+Request URL: /cakephp/app/categories
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:37:51 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:37:53 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users/
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:39:03 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:39:05 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:39:05 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:39:06 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:39:06 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:39:07 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:49:22 Error: Fatal Error (4): syntax error, unexpected ']' in [E:\wwwroot\cakephp\lib\Cake\Controller\Component\Auth\FormAuthenticate.php, line 77]
+2014-06-27 09:49:22 Error: [FatalErrorException] syntax error, unexpected ']'
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\wwwroot\cake...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\wwwroot\cake...', 77, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\wwwroot\cake...', 77, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 09:55:42 Error: Fatal Error (1): Call to undefined method UsersController::hash() in [E:\wwwroot\cakephp\app\Controller\UsersController.php, line 11]
+2014-06-27 09:55:42 Error: [FatalErrorException] Call to undefined method UsersController::hash()
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\wwwroot\cake...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\wwwroot\cake...', 11, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\wwwroot\cake...', 11, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 09:55:45 Error: Fatal Error (1): Call to undefined method UsersController::hash() in [E:\wwwroot\cakephp\app\Controller\UsersController.php, line 11]
+2014-06-27 09:55:45 Error: [FatalErrorException] Call to undefined method UsersController::hash()
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\wwwroot\cake...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\wwwroot\cake...', 11, Array)
+#2 E:\wwwroot\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\wwwroot\cake...', 11, Array)
+#3 E:\wwwroot\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 09:57:53 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 09:57:55 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 10:04:07 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 10:04:08 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 10:04:10 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 10:04:28 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 10:04:29 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 10:05:11 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 10:05:12 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 10:05:13 Error: [MissingViewException] View file "E:\wwwroot\cakephp\app\View\Posts\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\wwwroot\\cakephp\\app\\View\\Posts\\index.ctp',
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 E:\wwwroot\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 E:\wwwroot\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 E:\wwwroot\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 10:10:07 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/login
+Stack Trace:
+#0 E:\wwwroot\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
